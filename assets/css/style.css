@@ -300,11 +300,16 @@ input[type=submit]:hover{
         float: right;
     }
     .bio{
-        width: inherit;
+        width: 680px;
         margin: 20px 20px 0px 20px;
     }
     .portfolio{
-        
+        width: 680px;
+        margin: 20px 20px 0px 20px;
+    }
+    .contact{
+        width: 680px;
+        margin: 20px 20px 0px 20px;
     }
 }
 @media screen and (max-width: 640px) {
