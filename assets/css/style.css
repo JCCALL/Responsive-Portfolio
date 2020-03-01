@@ -272,32 +272,36 @@ input[type=submit]:hover{
     }
     .link{
         position: initial;
-        margin: 50px 0px 0px 600px;
+        margin: 50px 20px 0px 0px;
         text-align: center;
+        float: right;
     }
     .bio{
-        width: inherit;
-        margin: 20px 0px 0px 0px;
+        width: 520px;
+        margin: 20px 0px 0px 30px;
     }
     .portfolio{
-        width: inherit;
-        margin: 20px 0px 0px 0px;
+        width: 630px;
+        margin: 20px 0px 0px 30px;
     }
     .contact{
-        width: inherit;
-        margin: 20px 400px 0px 30px
+        width: 520px;
+        margin: 20px 0px 0px 30px
     }
 }
 
 @media screen and (max-width: 768px) {
     h1{
-        
+        margin: 25px 0px 0px 20px;
+        text-align: center;
     }
     .link{
-        
+        margin: 50px 20px 0px 0px; 
+        float: right;
     }
     .bio{
-        
+        width: inherit;
+        margin: 20px 20px 0px 20px;
     }
     .portfolio{
         
