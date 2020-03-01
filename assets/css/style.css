@@ -1,0 +1,266 @@
+body{
+    width: 100%;
+    background-image: url("../images/scott-webb-UjupleczBOY-unsplash.jpg");
+    margin: 0px;
+}
+
+.content{
+    
+}
+.heading{
+    background-color: #f9fbff;
+    border: solid #cccccc;
+    width: 100%; 
+    height: 100px;
+    margin: -1px;
+    
+}
+
+
+h1 {
+    background-color: #02137b;
+    color: #ffffff;
+    font-family: 'Playfair Display SC';
+    margin: 25px 0px 0px 250px;
+    float: left;
+    padding: 20px;
+    font-size: 35px
+    
+}
+.link{
+    color: #777777;
+    position: absolute;
+    margin-top:40px;
+    margin-left: 930px;
+    font-family: 'Simonetta';
+    font-size: 20px;
+}
+.index{
+    border-right: 1px solid #777777;
+    padding: 0px 20px;
+    color: #777777 ;
+    text-decoration: none;
+}
+.contact-page{
+    color:#777777;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+.portfolio-page{
+    border-right: 1px solid #777777;
+    color: #777777;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+h2{
+    color: #02137b;
+    font-family: 'Playfair Display SC';
+    font-size: 25px;
+}
+hr{
+    border-top: 5px solid #02137b;
+}
+.bio {
+    width: 960px;
+    margin: 50px 250px -50px 250px;
+    background-color: #f9fbff;
+    border: solid 4px #747474;
+    padding: 20px;
+    color: #707070;
+    font-family: 'Simonetta';
+    font-size: 20px;
+}
+
+.bio-pic{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px 20px 10px 0px;
+    border: solid 1px #0077da;
+}
+.qoute{
+    font-style: italic;
+    text-align: center;
+    color: #0077da;
+}
+.contact{
+    width: 960px;
+    margin: 50px 250px -50px 250px;
+    background-color: #f9fbff;
+    border: solid 4px #747474;
+    padding: 20px;
+}
+input[type=text], textarea{
+    width: 100%;
+    padding: 5px 0px;
+    border: 1px solid #cccccc;
+    resize: vertical;
+    margin: 10px 0px;
+    font-family: 'Simonetta';
+    font-size: 15px;
+
+}
+textarea{
+    height: 300px;
+}
+input[type=email]{
+    width: 100%;
+    padding: 5px 0px;
+    border: 1px solid #cccccc;
+    resize: vertical
+    margin: 10px 0px;
+    font-family: 'Simonetta';
+    font-size: 15px;
+}
+input[type=submit]{
+    background-color: #02137b;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-family: 'Simonetta';
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #54576b;
+}
+.portfolio{
+    width: 960px;
+    margin: 50px 250px -50px 250px;
+    background-color: #f9fbff;
+    border: solid 4px #747474;
+    padding: 20px;
+}
+.portfolio-pics{
+    display: grid;
+    grid-template-columns: 320px 320px;
+    
+    
+}
+.pic1{
+    width: 300px;
+    height: 200px;
+    margin: 20px 0px 20px 0px;
+}
+.pic1a{
+   position: relative;
+}
+.site-one{
+    background: #02137b;
+    height: 20px;
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    position: absolute;
+    top: 55%;
+    font-family: 'Playfair Display SC';
+    color: #cacaca;
+    font-size: 20px;
+    
+}
+.pic2{
+    width: 300px;
+    height: 200px;
+    margin: 20px 0px 20px 0px;
+}
+.pic2a{
+   position: relative;
+}
+.site-two{
+    background: #02137b;
+    height: 20px;
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    position: absolute;
+    top: 55%;
+    font-family: 'Playfair Display SC';
+    color: #cacaca;
+    font-size: 20px;
+}    
+.pic3{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.pic3a{
+    position: relative;
+ }
+.site-three{
+    background: #02137b;
+    height: 20px;
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    position: absolute;
+    top: 55%;
+    font-family: 'Playfair Display SC';
+    color: #cacaca;
+    font-size: 20px;
+}
+.pic4{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.pic4a{
+    position: relative;
+ }
+.site-four{
+    background: #02137b;
+    height: 20px;
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    position: absolute;
+    top: 55%;
+    font-family: 'Playfair Display SC';
+    color: #cacaca;
+    font-size: 20px;
+}
+.pic5{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+.pic5a{
+    position: relative;
+ }
+.site-five{
+    background: #02137b;
+    height: 20px;
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    position: absolute;
+    top: 55%;
+    font-family: 'Playfair Display SC';
+    color: #cacaca;
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    vertical-align: text-bottom;
+    background-color: #666666;
+    font-family: 'Playfair Display SC';
+    color: #b9b9b9;
+    padding-top: 50px;
+    border-top: 8px solid #02137b;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+
+}
+.push{
+    height: 200px;
+}
