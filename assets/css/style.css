@@ -313,6 +313,9 @@ input[type=submit]:hover{
     }
 }
 @media screen and (max-width: 640px) {
+    .heading{
+        height: 120px;
+    }
     h1{
         margin: 0px;
         float: none;
@@ -320,21 +323,66 @@ input[type=submit]:hover{
         text-align: center;
     }
     .link{
-        position: initial;
         margin: 0px;
         text-align: center;
-        padding: 3px 40px;
+        padding: 10px 40px;
+        float: none;
     }
     .bio{
-        width: inherit;
-        margin: 60px 0px 0px 0px;
+        width: 550px;
+        margin: 30px 20px 0px 20px;
+    }
+    .bio-pic{
+        width: 550px;
+        height: 550px;
+        float: none;
+        margin: 10px 0px
     }
     .portfolio{
-        width: inherit;
-        margin: 20px 0px 0px 0px;
+        width: 550px;
+        margin: 30px 20px 0px 20px;
     }
     .portfolio-pics{
         display: grid;
         grid-template-columns: initial;
+    }
+    .pic1{
+        width: 550px;
+        height: 550px;
+    }
+    .site-one{
+        width: 550px;
+    }
+    .pic2{
+        width: 550px;
+        height: 550px;
+    }
+    .site-two{
+        width: 550px;
+    }
+    .pic3{
+        width: 550px;
+        height: 550px;
+    }
+    .site-three{
+        width: 550px;
+    }
+    .pic4{
+        width: 550px;
+        height: 550px;
+    }
+    .site-four{
+        width: 550px;
+    }
+    .pic5{
+        width: 550px;
+        height: 550px;
+    }
+    .site-five{
+        width: 550px;
+    }
+    .contact{
+        width: 550px;
+        margin: 30px 20px 0px 20px;
     }
 }
