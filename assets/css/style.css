@@ -2,6 +2,7 @@ body{
     width: 100%;
     background-image: url("../images/scott-webb-UjupleczBOY-unsplash.jpg");
     margin: 0px;
+    height: 100%;
 }
 
 .content{
@@ -68,7 +69,7 @@ hr{
 }
 .bio {
     width: 960px;
-    margin: 50px 250px -50px 250px;
+    margin: 50px auto;
     background-color: #f9fbff;
     border: solid 4px #747474;
     padding: 20px;
@@ -91,7 +92,7 @@ hr{
 }
 .contact{
     width: 960px;
-    margin: 50px 250px -50px 250px;
+    margin: 50px auto;
     background-color: #f9fbff;
     border: solid 4px #747474;
     padding: 20px;
@@ -113,7 +114,7 @@ input[type=email]{
     width: 100%;
     padding: 5px 0px;
     border: 1px solid #cccccc;
-    resize: vertical
+    resize: vertical;
     margin: 10px 0px;
     font-family: 'Simonetta';
     font-size: 15px;
@@ -130,7 +131,7 @@ input[type=submit]:hover{
 }
 .portfolio{
     width: 960px;
-    margin: 50px 250px -50px 250px;
+    margin: 50px auto;
     background-color: #f9fbff;
     border: solid 4px #747474;
     padding: 20px;
@@ -300,21 +301,26 @@ input[type=submit]:hover{
         float: right;
     }
     .bio{
-        width: 680px;
-        margin: 20px 20px 0px 20px;
+        width: auto;
+        margin: 20px auto;
     }
     .portfolio{
-        width: 680px;
-        margin: 20px 20px 0px 20px;
+        width: auto;
+        margin: 20px auto;
     }
     .contact{
-        width: 680px;
-        margin: 20px 20px 0px 20px;
+        width: auto;
+        margin: 20px auto;
     }
 }
 @media screen and (max-width: 640px) {
+    body{
+        width: auto;
+        height: auto;
+    }
     .heading{
         height: 120px;
+        position: static;
     }
     h1{
         margin: 0px;
@@ -330,7 +336,7 @@ input[type=submit]:hover{
     }
     .bio{
         width: 550px;
-        margin: 30px 20px 0px 20px;
+        margin: 30px auto;
     }
     .bio-pic{
         width: 550px;
@@ -340,7 +346,7 @@ input[type=submit]:hover{
     }
     .portfolio{
         width: 550px;
-        margin: 30px 20px 0px 20px;
+        margin: 30px auto;
     }
     .portfolio-pics{
         display: grid;
@@ -383,6 +389,6 @@ input[type=submit]:hover{
     }
     .contact{
         width: 550px;
-        margin: 30px 20px 0px 20px;
+        margin: 30px auto;
     }
 }
